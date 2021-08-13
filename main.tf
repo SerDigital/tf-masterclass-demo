@@ -10,7 +10,7 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "mariodamian!"
+    organization = "mariodamian"
 
     workspaces {
       name = "tf-masterclass-demo"
